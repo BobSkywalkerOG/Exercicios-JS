@@ -1,4 +1,8 @@
-const arr1 = [1, 2, 3 ,4, '']
-const arr2 = [5, 6, 7, 8]
+const arr = [1, 2, 5, 7];
+let total = 0;
 
-console.log(arr1 + arr2)
+for (let i = 0; i < arr.length; i++) {
+  total = total + arr[i]
+  
+}
+console.log(total);
