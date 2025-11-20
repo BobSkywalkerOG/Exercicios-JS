@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    padding: 150px;
+}
+
+#caixa {
+  border: 10px;
+  border-style: solid;
+  height: 300px;
+  width: 699px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+#caixa>h1{
+    padding: 20px;
+}
